@@ -1,0 +1,101 @@
+<app-sidebar></app-sidebar>
+<app-topnav></app-topnav>
+<div class="right_col" role="main">
+  <div class="row">
+    <div class="col-md-12 col-sm-12 col-xs-12">
+      <div class="x_panel">
+        <div class="x_title">
+          <h2>Upload Lab Results</h2>
+          <!-- <ul class="nav navbar-right panel_toolbox">
+            <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i
+                  class="fa fa-wrench"></i></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Settings 1</a>
+                </li>
+                <li><a href="#">Settings 2</a>
+                </li>
+              </ul>
+            </li>
+            <li><a class="close-link"><i class="fa fa-close"></i></a>
+            </li>
+          </ul> -->
+          <div class="clearfix"></div>
+        </div>
+        <div class="x_content">
+          <div class="col-md-11 col-sm-11 col-xs-11">
+            <div class="x_panel">
+              <div class="x_content">
+                <br>
+                <form id="demo-form2" data-parsley-validate="" class="form-horizontal form-label-left" novalidate="">
+                  <div ng-controller="showOtp">
+                    <div class="mobile" ng-class='{ div: true, mobile: hide }'>
+                      <app-verifyperson></app-verifyperson>
+                    </div>
+                    <br><br>
+                  </div>
+                </form>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-lg-11 col-md-11">
+            <div class="x_content">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th>Requisition</th>
+                    <th>Laboratory</th>
+                    <th>Date</th>
+                    <th>Location</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Chest Xray</td>
+                    <td>Lancet</td>
+                    <td>12/11/2018</td>
+                    <td>Langata</td>
+                  </tr>
+                  <tr>
+                    <td>Chest Xray</td>
+                    <td>Lancet</td>
+                    <td>12/11/2018</td>
+                    <td>Langata</td>
+                  </tr>
+                  <tr>
+                    <td>Chest Xray</td>
+                    <td>Lancet</td>
+                    <td>12/11/2018</td>
+                    <td>Langata</td>
+                  </tr>
+                </tbody>
+              </table>
+
+            </div>
+          </div>
+        </div>
+        <br><br>
+        <div class="row">
+          <div class="col-lg-3 col-md-3">
+            <button type="button" class="btn btn-primary">Upload Results</button>
+          </div>
+          <div class="col-lg-3 col-md-3">
+            <button type="button" class="btn btn-primary">Upload Invoice</button>
+          </div>
+          <div class="col-lg-3 col-md-3">
+          </div>
+          <div class="col-lg-3 col-md-3">
+            <button type="button" class="btn btn-success">Submit</button>
+          </div>
+        </div>
+        <br><br>
+      </div>
+    </div>
+  </div>
+</div>

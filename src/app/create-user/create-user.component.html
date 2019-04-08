@@ -1,0 +1,51 @@
+<div class="login">
+<div class="login_wrapper">
+  <div class="animate form login_form">
+    <section class="login_content">
+      <form>
+        <h1>Create Account</h1>
+        <div>
+          <input [(ngModel)]="regististrationData.firstname" name="firstname" type="text" class="form-control" placeholder="Firstname" required="">
+        </div>
+        <div>
+          <input [(ngModel)]="regististrationData.secondname" name="secondname" type="text" class="form-control" placeholder="Secondname" required="">
+        </div>
+        <div>
+          <input [(ngModel)]="regististrationData.email" name="email" type="email" class="form-control" placeholder="Email" required="">
+        </div>
+        <div>
+          <input [(ngModel)]="regististrationData.password" name="password" type="password" class="form-control" placeholder="Password" required="">
+        </div>
+        <div>
+          <select [(ngModel)]="regististrationData.myrole" name="myrole" class="form-control">
+            <option value="2">Lab Tech</option>
+            <option value="3">Pharmacist</option>
+          </select>
+        </div>
+        <br>
+        <div>
+          <button (click)="registerUser()"  class="btn btn-default submit">Submit</button>
+        </div>
+    
+        <div class="clearfix"></div>
+    
+        <div class="separator">
+          <!-- <p class="change_link">Already a member ?
+                      <a href="#signin" class="to_register"> Log in </a>
+                    </p> -->
+    
+          <div class="clearfix"></div>
+          <br />
+          <div>
+            <h1>SASAdoctor</h1>
+            <p>©2019 All Rights Reserved.sasadoctor. <br />Privacy and Terms</p>
+          </div>
+        </div>
+      </form>
+    </section>
+  </div>
+  
+
+</div>
+</div>
+
